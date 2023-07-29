@@ -1,0 +1,54 @@
+@media(min-width: 768px) {
+    .inventory-filter {
+        color: purple;
+        /* padding: 0 1rem; */
+      }
+      
+      /* .inventory-filter__control {
+        border: 2px solid red;
+      } */
+      
+      .inventory-filter label {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      
+      .inventory-filter select {
+        font: inherit;
+        padding: 0.5rem 0;
+        font-weight: bold;
+        border-radius: 6px;
+        outline: none;
+      }
+}
+
+@media(min-width: 400px) and (max-width: 768px){
+    .inventory-filter {
+        color: purple;
+      }
+      
+      .inventory-filter select {
+        font: inherit;
+        font-size: 0.5rem;
+        padding: 0.6rem 0;
+        font-weight: bold;
+        border-radius: 6px;
+        outline: none;
+      }
+}
+
+
+@media(max-width: 400px){
+    .inventory-filter {
+        color: purple;
+      }
+      
+      .inventory-filter select {
+        font: inherit;
+        font-size: 0.5rem;
+        padding: 0.6rem 0;
+        font-weight: bold;
+        border-radius: 6px;
+        outline: none;
+      }
+}

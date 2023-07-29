@@ -1,0 +1,165 @@
+button .deleteIcon {
+    width: 1.3vw;
+    /* font-size: 1.5vw; */
+
+  }
+
+button .saveIcon {
+    width: 1.3vw;
+    /* font-size: 1.5vw; */
+
+  }
+
+  tr input{
+    font-size: 1.2vw;
+
+  }
+
+  tr select {
+    font-size: 1.2vw;
+  }
+
+@media(min-width: 1000px) {
+    tr input {
+        width: 100%;
+        padding: 5px 0;
+        outline: none;
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+    tr select {
+        padding: 5px 0;
+        outline: none;
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+
+    button .deleteIcon {
+        /* width: 1.3rem; */
+        border: none;
+        outline: none;
+    
+      }
+
+    button .saveIcon {
+        /* width: 1.3rem; */
+        border: none;
+        background-color:  #40005d;
+        outline: none;
+    
+      }
+}
+@media(min-width: 700px) and (max-width: 1000px) {
+    tr input {
+        width: 100%;
+        padding: 5px 0;
+        /* font-size: 0.5rem; */
+        outline: none;
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+    tr select {
+        width: 100%;
+        padding: 5px 0;
+        outline: none;
+        /* font-size: 0.5rem; */
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+
+    button .deleteIcon {
+        /* width: 1rem; */
+        border: none;
+        outline: none;
+    
+      }
+
+    button .saveIcon {
+        /* width: 1rem; */
+        border: none;
+        background-color:  #40005d;
+        outline: none;
+    
+      }
+
+    /* tr td button{
+        width: 10%;
+        display: none;
+    } */
+}
+@media(min-width: 500px) and (max-width: 700px) {
+    tr input {
+        width: 100%;
+        padding: 5px 0;
+        /* font-size: 0.5rem; */
+        outline: none;
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+    tr select {
+        width: 100%;
+        padding: 5px 0;
+        outline: none;
+        /* font-size: 0.5rem; */
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+
+    button .deleteIcon {
+        /* width: 0.8rem; */
+        border: none;
+        outline: none;
+    
+      }
+
+    button .saveIcon {
+        /* width: 0.8rem; */
+        border: none;
+        outline: none;
+        background-color:  #40005d;
+      }
+
+    /* tr td button{
+        width: 10%;
+        display: none;
+    } */
+}
+
+
+@media(max-width: 500px) {
+    tr input {
+        width: 100%;
+        padding: 5px 0;
+        /* font-size: 0.4rem; */
+        outline: none;
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+    tr select {
+        width: 100%;
+        padding: 5px 0;
+        outline: none;
+        /* font-size: 0.5rem; */
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+
+    button .deleteIcon {
+        /* width: 0.8rem; */
+        border: none;
+        outline: none;
+    
+      }
+
+    button .saveIcon {
+        /* width: 0.8rem; */
+        border: none;
+        outline: none;
+        background-color:  #40005d;
+      }
+
+    /* tr td button{
+        width: 10%;
+        display: none;
+    } */
+}
