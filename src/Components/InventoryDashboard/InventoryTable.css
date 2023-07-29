@@ -1,6 +1,6 @@
-table{
-  font-size: 1vw
-}
+/* table{
+  font-size: 3vw
+} */
 
 td, th {
   padding: 1.3vw;
@@ -19,6 +19,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     border-radius: 20px;
+    font-size: 1.3rem;
   }
 
   .form-hand {
@@ -106,6 +107,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     border-radius: 20px;
+    font-size: 3vw;
     /* padding: 10px 5px; */
   }
 
@@ -174,6 +176,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     border-radius: 15px;
+    font-size: 3vw;
     /* padding: 6px 3px; */
     /* font-size: 0.5rem; */
     
@@ -239,7 +242,7 @@ table {
     width: 100%;
     border-radius: 15px;
     /* padding: 6px 3px; */
-    /* font-size: 0.5rem; */
+    font-size: 3vw;
   }
 
   .form-hand {
