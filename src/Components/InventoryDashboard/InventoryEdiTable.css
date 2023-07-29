@@ -1,22 +1,19 @@
 button .deleteIcon {
     width: 1.3vw;
-    /* font-size: 1.5vw; */
 
   }
 
 button .saveIcon {
     width: 1.3vw;
-    /* font-size: 1.5vw; */
 
   }
 
   tr input{
-    font-size: 1.2vw;
-
+    font-size: 1.5vw;
   }
 
   tr select {
-    font-size: 1.2vw;
+    font-size: 1.8vw;
   }
 
 @media(min-width: 1000px) {
@@ -26,23 +23,30 @@ button .saveIcon {
         outline: none;
         border: 1px solid #dddddd;
         color: #40005d;
+        /* font-size: 1.2vw; */
     }
     tr select {
         padding: 5px 0;
         outline: none;
         border: 1px solid #dddddd;
         color: #40005d;
+        /* font-size: 1.2vw; */
+    }
+
+    td .handleFlex{
+        border: 2px solid red;
+        background: #40005d;
     }
 
     button .deleteIcon {
-        /* width: 1.3rem; */
+        width: 1.3vw;
         border: none;
         outline: none;
     
       }
 
     button .saveIcon {
-        /* width: 1.3rem; */
+        width: 1.3vw;
         border: none;
         background-color:  #40005d;
         outline: none;
@@ -53,7 +57,7 @@ button .saveIcon {
     tr input {
         width: 100%;
         padding: 5px 0;
-        /* font-size: 0.5rem; */
+        /* font-size: 1.3vw; */
         outline: none;
         border: 1px solid #dddddd;
         color: #40005d;
@@ -62,20 +66,20 @@ button .saveIcon {
         width: 100%;
         padding: 5px 0;
         outline: none;
-        /* font-size: 0.5rem; */
+        /* font-size: 2vw; */
         border: 1px solid #dddddd;
         color: #40005d;
     }
 
     button .deleteIcon {
-        /* width: 1rem; */
+        width: 2vw;
         border: none;
         outline: none;
     
       }
 
     button .saveIcon {
-        /* width: 1rem; */
+        width: 2vw;
         border: none;
         background-color:  #40005d;
         outline: none;
@@ -106,14 +110,14 @@ button .saveIcon {
     }
 
     button .deleteIcon {
-        /* width: 0.8rem; */
+        width: 3vw;
         border: none;
         outline: none;
     
       }
 
     button .saveIcon {
-        /* width: 0.8rem; */
+        width: 3vw;
         border: none;
         outline: none;
         background-color:  #40005d;
@@ -145,14 +149,14 @@ button .saveIcon {
     }
 
     button .deleteIcon {
-        /* width: 0.8rem; */
+        width: 3vw;
         border: none;
         outline: none;
     
       }
 
     button .saveIcon {
-        /* width: 0.8rem; */
+        width: 3vw;
         border: none;
         outline: none;
         background-color:  #40005d;

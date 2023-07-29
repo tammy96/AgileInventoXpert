@@ -1,7 +1,5 @@
   td, th {
-    /* border: 1px solid #333; */
     border: 1px solid #dddddd;
-    /* border: none; */
     text-align: left;
     padding: 8px;
   }
@@ -12,6 +10,7 @@
     /* font-size: 1.3vw; */
   }
 
+
  tr button .editIcon {
     width: 1rem;
     border: none;
@@ -21,16 +20,6 @@
 
   .table-data-sets {
     border: 1px solid #dddddd;
-    /* background: black; */
     text-align: left;
     padding: 8px;
   }
-
-  /* tr button { */
-    /* display: none; */
-    /* width: 30%; */
-    /* font-size: 0.5rem; */
-    /* margin-top: 15px; */
-    /* padding: 8px;
-    margin: 10px; */
-  /* } */

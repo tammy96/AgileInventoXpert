@@ -59,7 +59,7 @@ const InventoryEdiTable = (props) => {
             <input type="number" name="price" value={enteredPrice} placeholder="Enter Product Price" required="required" onChange={priceChangeHandlers} />
         </td>
 
-        <td>
+        <td className="handleFlex">
             <button type="submit" onClick={()=>props.handleEditDone({
                 name: enteredName,
                 brand: enteredBrand,
