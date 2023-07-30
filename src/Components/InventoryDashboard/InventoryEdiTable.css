@@ -1,4 +1,4 @@
-button .deleteIcon {
+/* button .deleteIcon {
     width: 1.3vw;
 
   }
@@ -6,7 +6,7 @@ button .deleteIcon {
 button .saveIcon {
     width: 1.3vw;
 
-  }
+  } */
 
   tr input{
     font-size: 1.5vw;
@@ -31,11 +31,6 @@ button .saveIcon {
         border: 1px solid #dddddd;
         color: #40005d;
         /* font-size: 1.2vw; */
-    }
-
-    td .handleFlex{
-        border: 2px solid red;
-        background: #40005d;
     }
 
     button .deleteIcon {
@@ -85,11 +80,6 @@ button .saveIcon {
         outline: none;
     
       }
-
-    /* tr td button{
-        width: 10%;
-        display: none;
-    } */
 }
 @media(min-width: 500px) and (max-width: 700px) {
     tr input {
@@ -110,27 +100,22 @@ button .saveIcon {
     }
 
     button .deleteIcon {
-        width: 3vw;
+        width: 2vw;
         border: none;
         outline: none;
     
       }
 
     button .saveIcon {
-        width: 3vw;
+        width: 2vw;
         border: none;
         outline: none;
         background-color:  #40005d;
       }
-
-    /* tr td button{
-        width: 10%;
-        display: none;
-    } */
 }
 
 
-@media(max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
     tr input {
         width: 100%;
         padding: 5px 0;
@@ -166,4 +151,36 @@ button .saveIcon {
         width: 10%;
         display: none;
     } */
+}
+@media (max-width: 300px) {
+    tr input {
+        width: 100%;
+        padding: 5px 0;
+        /* font-size: 0.4rem; */
+        outline: none;
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+    tr select {
+        width: 100%;
+        padding: 5px 0;
+        outline: none;
+        /* font-size: 0.5rem; */
+        border: 1px solid #dddddd;
+        color: #40005d;
+    }
+
+    button .deleteIcon {
+        width: 3vw;
+        border: none;
+        outline: none;
+    
+      }
+
+    button .saveIcon {
+        width: 3vw;
+        border: none;
+        outline: none;
+        background-color:  #40005d;
+      }
 }

@@ -7,7 +7,9 @@
   tr button {
     background: transparent;
     border: none;
-    /* font-size: 1.3vw; */
+    /* width: 0.1vw; */
+    color: red;
+    cursor: pointer;
   }
 
 
